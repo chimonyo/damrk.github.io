@@ -1,0 +1,246 @@
+html, body {
+    margin: 20px;
+    padding: 0;
+    font-family: 'Calibri' 'sans-serif';
+}
+
+header{
+    overflow:hidden;
+      
+}
+header a {
+ 
+  float: left;
+  color: white;
+  text-align: center;
+  margin: 6px;
+  padding: 18px 10px 0 10px;
+  font-size: 18px; 
+  line-height: 18px;
+  border-radius: 4px;  
+  border: 1px grey none;
+  background-color:#BD1E1E;  
+}
+
+a {
+    text-decoration: none;
+    color: #BD1E1E; 
+}
+
+.logo{
+    display: inline; 
+    width: 70px;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+    top: 0px;   
+}
+
+.dropdown p{
+    position: absolute;
+    background-color: #ebc575;
+    max-width: 16em;
+    color: black;
+    display: block;
+    padding: 5px 8px;
+    line-height: 1.8;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.person{
+    position: absolute;
+    left: 110px;
+     top: 45px;
+     
+}
+.address{
+    position: absolute;
+     top: 45px;
+    left: 250px;
+    width: 7em;
+    
+}
+
+.email{
+    position: absolute;
+     top: 45px;
+    left: 410px;
+  
+}
+    
+.contact{
+    display: inline; 
+    width: 66px;
+    height: 30px;
+    padding: 10px 8px;
+    position: absolute;
+    left: 110px;
+    top: 0px; 
+}
+
+.location{
+    display: inline; 
+    width: 70px;
+    height: 30px;
+    padding: 10px 8px;
+    position: absolute;
+    left: 260px;
+    top: 0px; 
+}
+.mail{
+    display: inline; 
+    width: 70px;
+    height: 30px;
+    padding: 10px 8px;
+    position: absolute;
+    left: 490px;
+    top: 0px; 
+}
+
+
+.person,
+.address,
+.email{
+font-size: 0.750em;
+ font-weight:300; 
+ max-width: 50px;
+   
+}
+marquee{
+    font-size: 1.875em;
+    position: absolute;
+    top:170px;
+}
+main{
+   background-color: #BD1E1E; 
+   color: #FFFFFF;
+   text-align: center;
+   padding: 20px;
+   margin-top:180px;
+}
+h1{
+    font-size: 4.25em;
+}
+
+h2{
+ font-size: 2.25em;   
+}
+p {
+  font-size: 1.25em; 
+  font-weight: bold;    
+}
+
+button {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 6px;
+    display: block;
+    justify-content: space-around;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #FFFFFF; 
+    cursor: pointer;
+    
+}
+
+
+.catalogue {
+    width: 500px;
+    height: 320px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto; 
+}
+section{ 
+    display: none;
+}
+#store{
+    margin-top:10px;
+}
+
+@media (min-width: 700px){
+    h1  {
+        font-size: 6.25em;
+        line-height: 0.1;
+        }
+    h2 {
+ font-size: 4.25em;
+ line-height: 0.1;   
+        }
+    p {
+  font-size: 2.25em; 
+  font-weight: bold;  
+    
+}
+.dropdown p{
+    position: absolute;
+    background-color: #ebc575;
+    max-width: 16em;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    line-height: 1.8;
+    font-size:14px;
+    font-weight: bold;
+}
+
+.person{
+    position: absolute;
+    left: 230px;
+     top: -10px;
+     
+    
+}
+.address{
+    position: absolute;
+     top: -10px;
+    left: 525px;
+    width: 10em;
+    
+}
+
+.email{
+    position: absolute;
+     top: -10px;
+    left: 840px;
+  
+}
+    
+.contact{
+    display: inline; 
+    width: 66px;
+    height: 30px;
+    padding:4px 4px;
+    position: absolute;
+    left: 140px;
+    top: 0px; 
+}
+
+.location{
+    display: inline; 
+    width: 70px;
+    height: 30px;
+    padding:4px 4px;
+    position: absolute;
+    left: 435px;
+    top: 0px; 
+}
+.mail{
+    display: inline; 
+    width: 70px;
+    height: 30px;
+    padding:4px 4px;
+    position: absolute;
+    left: 750px;
+    top: 0px; 
+}
+
+}
